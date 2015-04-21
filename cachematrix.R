@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-# This returns aa matrix that is the inverse of x
-# it will print the cached inverse if invesrse already exists for the same matrix
+# This returns a matrix that is the inverse of x
+# it will print the cached inverse if inverse already exists for the same matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
